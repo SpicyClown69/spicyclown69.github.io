@@ -1,14 +1,16 @@
 <html>
     <head>
         <title>SM BP Creator</title>
+        <link href="../main.css" rel="stylesheet">
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
         <h1>Scrap Mechanic Blueprint Creator!</h1>
-        <button onclick="newBp()">New</button><br>
-        Radius: <input type="number" id="radius" name="radius">
-        <button onclick="makeSphere()">New Sphere</button>
-        <pre><p id="display">{}</p></pre>
+        <button onclick="newBp()">Reset Blueprint</button><br>
+        <p class="redtext">Radius: </p><input type="number" id="radius" name="radius">
+        <button onclick="makeSphere()">New Sphere</button><br>
+        <button id="download" onclick="download('blueprint.json')">Download</button>
+        <pre><p id="display" style="background-color: rgb(15,15,15);">{}</p></pre>
         <script src="script.js"></script>
     </body>
 </html>

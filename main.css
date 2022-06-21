@@ -1,0 +1,178 @@
+body {
+    background-color: black;
+    color: rgb(0, 255, 0);
+    font-family: 'Courier New', Courier, monospace;
+    margin: 1%;
+}
+h1 {
+    color: rgb(0, 255, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4vw;
+}
+
+h2 {
+    color: rgb(0, 255, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3vw;
+}
+
+::-webkit-scrollbar {
+	width: 1em;
+}
+   
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+   
+::-webkit-scrollbar-thumb {
+	background-color: rgb(29, 29, 29);
+	outline: 1px solid rgb(0, 0, 0);
+	border-radius: 50px;
+}
+
+h3 {
+    color: rgb(0, 255, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2vw;
+}
+
+button {
+    color: rgb(0, 255, 0);
+    border-color: rgb(0, 255, 0);
+    background-color: black;
+    border-radius: 0.1px;
+    outline: .1vw solid;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2vw;
+}
+button:active {
+    color: rgb(255, 0, 0);
+    border-color: rgb(255, 0, 0);
+    background-color: black;
+    border-radius: 0.1vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    color: rgb(0, 255, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2vw;
+}
+
+a:link {
+    color: rgb(255, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2vw;
+}
+a:visited {
+    color: rgb(173, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+a:active {
+    color: rgb(0, 255, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+input {
+    color: rgb(0, 255, 0);
+    border-color: rgb(0, 255, 0);
+    background-color: black;
+    border-radius: 0.1vw;
+    outline: .1vw solid;
+    font-size: 2vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input::selection {
+    color: rgb(0, 255, 0);
+    border-color: rgb(0, 255, 0);
+    background-color: black;
+    border-radius: 0.1vw;
+    font-family: 'Courier New', Courier, monospace;
+}    
+
+::selection {
+    color: rgb(255, 0, 0);
+    border-color: rgb(255, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 0.1vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a::selection {
+    color: rgb(0, 255, 0);
+    border-color: rgb(0, 255, 0);
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 0.1vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input:focus {
+    outline: none;      /* Remove default outline and use border or box-shadow */
+    color: rgb(255, 0, 0);
+    border-color: rgb(255, 0, 0);
+    background-color: black;
+    border-radius: 0.1vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div.text {
+    color: rgb(0, 255, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2vw;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    border: .1vw;
+    border-color: rgb(0, 255, 0);
+}
+
+li {
+  width: 96%;
+  height: 2vw;
+  display: inline-block;
+  background: rgb(0, 0, 0);
+  outline: 1px solid rgb(0, 255, 0);
+  padding: 1vw 2vw;
+  text-decoration: none;
+}
+
+ul.hovermode li:hover {
+    background-color: rgb(15, 15, 15);
+    border: .1vw;
+  }
+
+ul.hovermode2 li:hover {
+    border: .1vw;
+    outline: 2px solid rgb(255, 0, 0);
+    position: relative;
+}
+
+table {
+    background-color: black;
+}
+
+tr {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    border: .1vw;
+    border-color: rgb(0, 255, 0);
+}
+td {
+    outline: 2px solid rgb(0, 255, 0);
+}
+tr.hovermode td:hover {
+    background-color: rgb(15, 15, 15);
+    border: .1vw;
+}
+
+tr.hovermode2 td:hover {
+    border: .1vw;
+    outline: 2px solid rgb(255, 0, 0);
+    position: relative;
+}

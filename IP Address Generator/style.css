@@ -1,0 +1,18 @@
+div {
+    overflow-y: scroll;
+    height: 24vw;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 1vw;
+}
+
+body {
+    overflow-y: hidden;
+}
+
+.ipbox {
+    border-radius: 2vw;
+    background-color: rgb(15, 15, 15);
+    padding: 1vw;
+}
